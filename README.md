@@ -1,1 +1,0 @@
-"# Calculadora desenvolvida em JS" 

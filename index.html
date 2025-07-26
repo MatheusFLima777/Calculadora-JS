@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora em JS</title>
+  <link rel="stylesheet" href="style.css">
+  <link type="image/png" sizes="32x32" rel="icon" href="assets\icons8-calculadora-de-maçã-32.png">
+</head>
+<body>
+  <main class="container">
+    <h1>Calculadora desenvolvida em JS</h1>
+    
+    <section class="calculadora">
+      <div class="display">
+        <div class="operation" id="operation"></div>
+        <div class="result" id="result"></div>
+      </div>
+      <div class="botoes">
+        <button class="btn roxo" >CE</button>
+        <button class="btn" id="LimparBtn">C</button>
+        <button class="btn">%</button>
+        <button class="btn roxo">÷</button>
+
+        <button class="btn" data-value="7">7</button>
+        <button class="btn" data-value="8">8</button>
+        <button class="btn" data-value="9">9</button>
+        <button class="btn roxo">*</button>
+
+        <button class="btn" data-value="4">4</button>
+        <button class="btn" data-value="5">5</button>
+        <button class="btn" data-value="6">6</button>
+        <button class="btn roxo">-</button>
+
+        <button class="btn" data-value="1">1</button>
+        <button class="btn" data-value="2">2</button>
+        <button class="btn" data-value="3">3</button>
+        <button class="btn roxo">+</button>
+
+        <button class="btn">±</button>
+        <button class="btn" data-value="0">0</button>
+        <button class="btn">,</button>
+        <button class="btn roxo">=</button>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
